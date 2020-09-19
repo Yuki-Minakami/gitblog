@@ -38,7 +38,7 @@ class Person{
 }
 ```
 
-再看看react中组件类的定义，是不是觉得很眼熟
+再看看react中组件类的定义，是不是觉得很眼熟?
 
 事实上，在react的渲染的过程中，也确确实实地将类内部的方法赋给了别的变量，例如onChange。
 
@@ -60,6 +60,6 @@ var getThis = person.getThis;
 getThis(); // global Object
 
 ```
-要想让这两种调用保持一致，还是需要在Person方法内部显式绑定
+要想让这两种调用保持一致，还是需要在Person方法内部显式绑定。
 
 
